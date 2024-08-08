@@ -1,0 +1,53 @@
+#mycontainer{
+    background-color: black;
+    color: white;
+}
+#mycontainer h2,h1,h4,h5,h6{
+    color: rgba(198, 155, 47, 0.776);
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#mycontainer a{
+    text-decoration: none;
+    color: rgba(198, 155, 47, 0.776);
+}
+#mycontainercontact a{
+    color: rgba(198, 155, 47, 0.776);
+background-color: black;
+border: 2px solid rgba(198, 155, 47, 0.776);
+text-align: center;
+}
+
+
+#mycontainercontact a:hover{
+    background-color:rgba(198, 155, 47, 0.776) ;
+    color: black;
+}
+#myrow1{
+    background-image: url(../img/home\ page.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 610px;
+    transition: all 2s 2s ;
+}
+#myrow1:hover{
+    background-image: url(../img/slider-park-lane-b-1440x810.webp);
+}
+#myrow1 h1{
+    padding-top: 30%;
+    padding-left: 5%;
+    color: rgba(198, 155, 47, 0.776);
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.dropdown:hover > .dropdown-menu{
+    display: block;
+}
+#myrow1 a{
+    margin-left: 5%;
+
+    border: 2px solid rgba(198, 155, 47, 0.776);
+    padding: 2px;
+}
+
+
